@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lightbox demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="lightbox.js" defer></script>
+</head>
+<body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const lightbox1 = Lightbox({
+        showCount : true,
+        showText : true,
+        closeOnBg : false,
+    });
+    lightbox1.addLinks(".gallery-el");
+
+    // YOU CAN ADD ITEMS TO A SEPARATE LIGHTBOX BY CHANGING THE CLASS AND LIGHBOX NAME LIKE IN THE EXAMPLE BELOW
+    // const lightbox2 = Lightbox({
+    //     showCount : true,
+    //     showText : true,
+    //     closeOnBg : false,
+    // });
+    // lightbox2.addLinks(".gallery-el2");
+});
+</script>
+<div class="sugma">
+    <a class="gallery-el" href="/alex-diaz-59-y7-B8T3o-unsplash.jpg">
+        <img src="/alex-diaz-59-y7-B8T3o-unsplash.jpg" alt="">
+    </a>
+    <a  class="gallery-el" href="/alex-diaz-O-GSrL2MAGQ-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/allec-gomes-jwHJ9kTN768-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/chris-turgeon-6wIDas3L1e8-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/coleman-glover-m-P77-OQLQw-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/elena-leya-GNwiKB34eGs-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/eugene-golovesov-pb0lkM6jgeU-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/feey-0rPDcBvs7MM-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/karina-skrypnik-3ScDiWRJlDk-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/ketevan-salia-Me-Y6NONjwQ-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/milad-fakurian-qCYKtOov--s-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/music-meets-heaven-XQqU97eXGvU-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/paul-steingasser-VL9zs6hQV1k-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/phil-desforges-ffWLye33OJA-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/philip-oroni-gftMuFt8vNk-unsplash.jpg"></a>
+    <a class="gallery-el"  href="/victor-larracuente-4vl6TQYUwvI-unsplash.jpg"></a>
+    <a  class="gallery-el" href="/viktor-zhulin-Hc3zs3GgxeY-unsplash.jpg"></a>
+</div>
+</body>
+</html>
